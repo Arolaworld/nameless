@@ -1,0 +1,13 @@
+import 'dart:io';
+
+main()
+//this is the main function of the program
+{
+  stdout.writeln('what is your name: ?');
+
+  //this speaks about the command output fxn on screen
+  var name = stdin.readLineSync();
+
+  print('my name is $name');
+}
+///
